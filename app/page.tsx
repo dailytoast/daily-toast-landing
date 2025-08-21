@@ -6,7 +6,7 @@ export default function HomePage() {
       {/* Header */}
       <header className="px-4 py-6 md:px-8">
         <div className="flex items-center">
-          <img src="/dailytoast-logo.png" alt="Daily Toast" className="h-12 md:h-16" />
+          <img src="/dailytoast-logo.png" alt="Daily Toast - Updated" className="h-12 md:h-16" />
         </div>
       </header>
 
