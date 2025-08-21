@@ -12,6 +12,28 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  openGraph: {
+    title: "Daily Toast - Local news, perfectly toasted",
+    description: "Singapore headlines with the perfect texture of light, crispy and substantial. From the team that built Asia's largest tech publication.",
+    url: "https://dailytoast.sg",
+    siteName: "Daily Toast",
+    images: [
+      {
+        url: "https://dailytoast.sg/hero-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Daily Toast - Singapore news platform",
+      },
+    ],
+    locale: "en_SG",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Daily Toast - Local news, perfectly toasted",
+    description: "Singapore headlines with the perfect texture of light, crispy and substantial.",
+    images: ["https://dailytoast.sg/hero-image.png"],
+  },
 }
 
 export default function RootLayout({
