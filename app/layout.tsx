@@ -22,6 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link 
+          href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+          rel="stylesheet" 
+        />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6Y900TELXC"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -35,14 +41,14 @@ export default function RootLayout({
         />
         <style>{`
 html {
-  font-family: ${GeistSans.style.fontFamily};
+  font-family: 'Inter', ${GeistSans.style.fontFamily};
   --font-sans: ${GeistSans.variable};
   --font-mono: ${GeistMono.variable};
   
-  /* Added custom font variables for easy swapping */
-  --font-heading: ${GeistSans.style.fontFamily};
-  --font-body: ${GeistSans.style.fontFamily};
-  --font-accent: ${GeistSans.style.fontFamily};
+  /* Updated custom font variables for Google Fonts */
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Inter', sans-serif;
 }
         `}</style>
       </head>
