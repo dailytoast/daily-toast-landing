@@ -126,8 +126,17 @@ export default function HomePage() {
                   fontFamily: "var(--font-family-body)",
                 }}
               >
-                From the team that built up Asia's largest tech publication, here's our spin on what we envision a
-                credible, delightful news platform in Singapore should be.
+                From the team that built up{" "}
+                <a
+                  href="https://techinasia.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:opacity-80 transition-opacity"
+                  style={{ color: "#26539b" }}
+                >
+                  Asia's largest tech publication
+                </a>
+                , here's our spin on what we envision a credible, delightful news platform in Singapore should be.
               </p>
               <p
                 className="text-lg md:text-xl leading-relaxed"
