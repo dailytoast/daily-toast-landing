@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description:
     "Singapore headlines with the perfect texture of light, crispy and substantial. From the team that built Asia's largest tech publication.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.svg",
+  },
 }
 
 export default function RootLayout({
