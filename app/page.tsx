@@ -145,7 +145,7 @@ export default function HomePage() {
                   fontFamily: "var(--font-family-body)",
                 }}
               >
-                We're still cooking up our native news product app, join our waitlist to get notified when it's ready
+                We're still cooking up our native news product app, join our waitlist to get notified when it's ready!
               </p>
             </div>
             <Link
