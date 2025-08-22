@@ -128,7 +128,7 @@ export default function HomePage() {
               >
                 From the team that built up{" "}
                 <a
-                  href="https://techinasia.com"
+                  href="https://www.techinasia.com/?utm_source=dailytoast.sg&utm_medium=website"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:opacity-80 transition-opacity"
